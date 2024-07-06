@@ -10,12 +10,12 @@
 
 2. **Set Up the Database**
 
-    Create a MySQL database named `product_reviews` and a table named `reviews`.
+    Create a MySQL database named `product_review` and a table named `reviews`.
 
     ```sql
-    CREATE DATABASE product_reviews;
+    CREATE DATABASE product_review;
 
-    USE product_reviews;
+    USE product_review;
 
     CREATE TABLE reviews (
         id INT AUTO_INCREMENT PRIMARY KEY,
